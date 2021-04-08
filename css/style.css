@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+html{
+font-family: 'Lato';
+}
+.wrapper {
+    width: 70%;
+    margin: 0px auto;
+}
+p{
+    font-size: 17px;
+    max-width: 80%;
+}
+.pic {
+    float: right;
+    width: auto;
+    margin: 10px 0 7px 7px;
+    padding: 7px;
+    
+} 
+.pic figcaption {
+    margin: 0 auto 5px;
+}
+img:hover {
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+a{
+color: rgb(0, 0, 0);
+}
+h1{
+   font-weight: 40px;
+    font-size: 2.5em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+h2{
+    font-size: 25px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+
+.intro{
+        max-width: 1026px;
+        padding-bottom: 35px;
+}
+nav{
+        font-size: 20px;
+}
+
+@keyframes swing {
+      65% {
+          -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+      }
+    }
+
+.content__list :hover {
+    color: rgb(110, 103, 221);
+}
+
+table{
+  width: 1026px;
+  border: 1px double black;
+  border-collapse: collapse;
+}
+th{
+     text-align: left;
+     padding: 5px;
+     border: 1px solid black;
+     align-content: center;
+text-align: center;
+}
+td{
+    padding: 5px;
+    border: 1px solid black;
+ text-align: center;
+    }
+figcaption{
+    font-style: italic;
+}
+/* first cards start */
+/* .wrap {
+    padding-top: 5px;
+    display: flex;
+    width: 100%;
+   flex: 50%;
+    flex-direction: row-reverse;  
+} */
+
+.Sam__Houston{
+    padding-bottom: 50px;
+}
+
+/* first cards end */
