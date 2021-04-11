@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
+
+
 html{
 font-family: 'Lato';
+}
+
+header{
+    position: fixed;
+    top: 0;
+   right: 25px;
+
+   }
+.header__logo-pic{
+    width: 95px;
+    height: 95px;
+    opacity: 0.25;
 }
 .wrapper {
     max-width: 1200px;
